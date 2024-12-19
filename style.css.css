@@ -1,0 +1,74 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #e2e8f0; /* Light grey-blue background */
+    color: #2d3748; /* Darker text color */
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient with peach tones */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #6b46c1; /* Purple-blue color */
+    border-bottom: 2px solid #b794f4; /* Lighter purple-blue */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+main ul {
+    list-style: disc inside;
+    margin-bottom: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #ff7e5f; /* Peach background */
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
